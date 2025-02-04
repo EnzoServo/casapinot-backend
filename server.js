@@ -8,6 +8,8 @@ const bookingRoutes = require('./bookingRoutes');  // Importa le rotte di prenot
 const paymentRoutes = require('./paymentRoutes');  // Importa le rotte di pagamento
 const discountRoutes = require('./discountRoutes'); // Importa le rotte di sconto
 const { sendContactEmail } = require('./mailer');
+const db = require('./db'); // Importa la connessione al database
+
 
 
 // Middleware per leggere i dati JSON dal corpo delle richieste
